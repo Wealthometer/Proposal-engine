@@ -19,3 +19,4 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="affection-event-service" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
