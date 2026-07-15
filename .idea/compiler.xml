@@ -10,3 +10,4 @@
         <module name="api-gateway" />
         <module name="heart-orchestrator-service" />
         <module name="config-server" />
+        <module name="vow-ledger-service" />
