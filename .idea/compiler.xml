@@ -21,3 +21,4 @@
       <module name="api-gateway" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="heart-orchestrator-service" options="-parameters" />
