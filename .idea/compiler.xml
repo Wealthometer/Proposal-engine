@@ -24,3 +24,4 @@
       <module name="heart-orchestrator-service" options="-parameters" />
       <module name="vow-ledger-service" options="-parameters" />
     </option>
+</project>
