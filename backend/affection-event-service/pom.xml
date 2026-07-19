@@ -57,3 +57,4 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
