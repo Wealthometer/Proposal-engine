@@ -6,3 +6,4 @@ spring:
     name: affection-event-service
   config:
     import: optional:configserver:http://config-server:8888
+  data:
