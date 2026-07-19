@@ -51,3 +51,4 @@
             <artifactId>lombok</artifactId>
             <version>1.18.38</version>
 
+            <optional>true</optional>
