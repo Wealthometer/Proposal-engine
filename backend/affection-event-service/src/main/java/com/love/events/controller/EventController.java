@@ -19,3 +19,4 @@ public class EventController {
         this.redis = redis;
     }
 
+    @GetMapping("/recent")
