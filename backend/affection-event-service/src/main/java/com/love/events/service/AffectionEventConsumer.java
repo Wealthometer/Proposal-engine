@@ -28,3 +28,4 @@ public class AffectionEventConsumer {
         String type = parts.length > 0 ? parts[0] : "unknown";
         String payload = parts.length > 1 ? parts[1] : message;
 
+        EventView event = new EventView(type, payload, System.currentTimeMillis());
