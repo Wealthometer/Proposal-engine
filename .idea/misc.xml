@@ -7,3 +7,4 @@
         <option value="$PROJECT_DIR$/backend/affection-event-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/discovery-service/pom.xml" />
