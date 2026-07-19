@@ -17,3 +17,4 @@ public class EventController {
 
     public EventController(StringRedisTemplate redis) {
         this.redis = redis;
+    }
