@@ -11,3 +11,4 @@
     </parent>
 
     <groupId>com.love</groupId>
+    <artifactId>affection-event-service</artifactId>
