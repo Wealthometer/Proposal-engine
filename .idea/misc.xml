@@ -5,3 +5,4 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/backend/affection-event-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/api-gateway/pom.xml" />
