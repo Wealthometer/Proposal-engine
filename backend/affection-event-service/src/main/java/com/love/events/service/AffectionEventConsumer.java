@@ -15,3 +15,4 @@ public class AffectionEventConsumer {
     private static final int MAX_RECENT = 50;
 
     private final StringRedisTemplate redis;
+    private final ObjectMapper objectMapper;
