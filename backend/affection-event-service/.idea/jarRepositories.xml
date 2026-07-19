@@ -13,3 +13,4 @@
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
