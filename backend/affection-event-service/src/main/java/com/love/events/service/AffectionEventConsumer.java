@@ -35,3 +35,4 @@ public class AffectionEventConsumer {
             redis.opsForList().trim(RECENT_EVENTS_KEY, 0, MAX_RECENT - 1);
             log.info("consumed affection event: type={} payload={}", type, payload);
         } catch (Exception e) {
+            log.error("failed to cache event", e);
