@@ -33,3 +33,4 @@ public class AffectionEventConsumer {
             String json = objectMapper.writeValueAsString(event);
             redis.opsForList().leftPush(RECENT_EVENTS_KEY, json);
             redis.opsForList().trim(RECENT_EVENTS_KEY, 0, MAX_RECENT - 1);
+            log.info("consumed affection event: type={} payload={}", type, payload);
