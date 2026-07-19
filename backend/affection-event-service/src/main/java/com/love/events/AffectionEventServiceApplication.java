@@ -10,3 +10,4 @@ public class AffectionEventServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(AffectionEventServiceApplication.class, args);
     }
+}
