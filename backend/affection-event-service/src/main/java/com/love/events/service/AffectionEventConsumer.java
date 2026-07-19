@@ -29,3 +29,4 @@ public class AffectionEventConsumer {
         String payload = parts.length > 1 ? parts[1] : message;
 
         EventView event = new EventView(type, payload, System.currentTimeMillis());
+        try {
