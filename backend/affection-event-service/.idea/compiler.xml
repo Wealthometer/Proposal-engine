@@ -8,3 +8,4 @@
         <module name="affection-event-service" />
       </profile>
   </component>
+  <component name="JavacSettings">
