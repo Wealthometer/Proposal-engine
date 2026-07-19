@@ -20,3 +20,4 @@ public class EventController {
     }
 
     @GetMapping("/recent")
+    public List<String> recent() {
