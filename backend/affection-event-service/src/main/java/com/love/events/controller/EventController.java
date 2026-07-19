@@ -21,3 +21,4 @@ public class EventController {
 
     @GetMapping("/recent")
     public List<String> recent() {
+        List<String> events = redis.opsForList().range(RECENT_EVENTS_KEY, 0, -1);
