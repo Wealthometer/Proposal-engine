@@ -7,3 +7,4 @@
         <outputRelativeToContentRoot value="true" />
         <module name="affection-event-service" />
       </profile>
+  </component>
