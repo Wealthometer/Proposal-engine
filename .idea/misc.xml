@@ -9,3 +9,4 @@
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/backend/discovery-service/pom.xml" />
         <option value="$PROJECT_DIR$/backend/heart-orchestrator-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/vow-ledger-service/pom.xml" />
