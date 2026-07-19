@@ -31,3 +31,4 @@ public class AffectionEventConsumer {
         EventView event = new EventView(type, payload, System.currentTimeMillis());
         try {
             String json = objectMapper.writeValueAsString(event);
+            redis.opsForList().leftPush(RECENT_EVENTS_KEY, json);
