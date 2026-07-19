@@ -81,3 +81,4 @@
                     </excludes>
                 </configuration>
             </plugin>
+        </plugins>
