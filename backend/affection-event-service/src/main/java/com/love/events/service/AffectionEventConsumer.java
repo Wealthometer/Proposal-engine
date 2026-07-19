@@ -25,3 +25,4 @@ public class AffectionEventConsumer {
     @KafkaListener(topics = "affection-event-stream", groupId = "affection-event-service")
     public void onEvent(String message) {
         String[] parts = message.split("\\|", 2);
+        String type = parts.length > 0 ? parts[0] : "unknown";
