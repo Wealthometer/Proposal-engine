@@ -47,3 +47,4 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.projectlombok</groupId>
