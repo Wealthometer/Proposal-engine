@@ -18,3 +18,4 @@ public class AffectionEventConsumer {
     private final ObjectMapper objectMapper;
 
     public AffectionEventConsumer(StringRedisTemplate redis, ObjectMapper objectMapper) {
+        this.redis = redis;
