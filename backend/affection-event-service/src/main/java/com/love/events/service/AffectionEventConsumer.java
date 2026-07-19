@@ -37,3 +37,4 @@ public class AffectionEventConsumer {
         } catch (Exception e) {
             log.error("failed to cache event", e);
         }
+    }
