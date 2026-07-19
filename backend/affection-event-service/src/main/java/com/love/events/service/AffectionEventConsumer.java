@@ -12,3 +12,4 @@ import org.springframework.stereotype.Service;
 public class AffectionEventConsumer {
 
     private static final String RECENT_EVENTS_KEY = "love-stack:recent-events";
+    private static final int MAX_RECENT = 50;
