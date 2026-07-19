@@ -13,3 +13,4 @@
     <groupId>com.love</groupId>
     <artifactId>affection-event-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>affection-event-service</name>
