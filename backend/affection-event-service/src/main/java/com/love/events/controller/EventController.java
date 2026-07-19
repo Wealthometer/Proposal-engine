@@ -13,3 +13,4 @@ public class EventController {
 
     private static final String RECENT_EVENTS_KEY = "love-stack:recent-events";
 
+    private final StringRedisTemplate redis;
