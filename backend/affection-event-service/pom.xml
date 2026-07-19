@@ -17,3 +17,4 @@
     <description>kafka-affection-event-stream consumer: 3 brokers worth of ambition, 1 broker in docker-compose</description>
 
     <properties>
+        <java.version>17</java.version>
