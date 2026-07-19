@@ -27,3 +27,4 @@ public class AffectionEventConsumer {
         String[] parts = message.split("\\|", 2);
         String type = parts.length > 0 ? parts[0] : "unknown";
         String payload = parts.length > 1 ? parts[1] : message;
+
