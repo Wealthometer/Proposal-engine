@@ -36,3 +36,4 @@ public class AffectionEventConsumer {
             log.info("consumed affection event: type={} payload={}", type, payload);
         } catch (Exception e) {
             log.error("failed to cache event", e);
+        }
