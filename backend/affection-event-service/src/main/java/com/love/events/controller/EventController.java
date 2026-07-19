@@ -11,3 +11,4 @@ import java.util.List;
 @RequestMapping("/api/events")
 public class EventController {
 
+    private static final String RECENT_EVENTS_KEY = "love-stack:recent-events";
