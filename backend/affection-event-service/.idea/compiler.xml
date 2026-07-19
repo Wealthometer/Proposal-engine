@@ -2,3 +2,4 @@
 <project version="4">
   <component name="CompilerConfiguration">
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
