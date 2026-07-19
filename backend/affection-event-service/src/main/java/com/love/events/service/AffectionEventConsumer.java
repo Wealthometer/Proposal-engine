@@ -32,3 +32,4 @@ public class AffectionEventConsumer {
         try {
             String json = objectMapper.writeValueAsString(event);
             redis.opsForList().leftPush(RECENT_EVENTS_KEY, json);
+            redis.opsForList().trim(RECENT_EVENTS_KEY, 0, MAX_RECENT - 1);
