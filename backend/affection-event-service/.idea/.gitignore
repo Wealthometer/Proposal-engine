@@ -4,3 +4,4 @@
 /httpRequests/
 # Ignored default folder with query files
 # Datasource local storage ignored files
+/dataSources/
