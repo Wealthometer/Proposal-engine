@@ -82,3 +82,4 @@
                 </configuration>
             </plugin>
         </plugins>
+    </build>
