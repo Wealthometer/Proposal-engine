@@ -21,3 +21,4 @@ public class AffectionEventConsumer {
         this.redis = redis;
         this.objectMapper = objectMapper;
     }
+
