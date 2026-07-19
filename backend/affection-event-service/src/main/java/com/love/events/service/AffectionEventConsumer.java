@@ -22,3 +22,4 @@ public class AffectionEventConsumer {
         this.objectMapper = objectMapper;
     }
 
+    @KafkaListener(topics = "affection-event-stream", groupId = "affection-event-service")
