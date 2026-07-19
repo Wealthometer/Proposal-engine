@@ -11,3 +11,4 @@ import org.springframework.stereotype.Service;
 @Service
 public class AffectionEventConsumer {
 
+    private static final String RECENT_EVENTS_KEY = "love-stack:recent-events";
