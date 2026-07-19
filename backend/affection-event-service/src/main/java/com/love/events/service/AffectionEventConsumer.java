@@ -16,3 +16,4 @@ public class AffectionEventConsumer {
 
     private final StringRedisTemplate redis;
     private final ObjectMapper objectMapper;
+
