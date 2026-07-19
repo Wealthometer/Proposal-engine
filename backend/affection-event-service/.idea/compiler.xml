@@ -6,3 +6,4 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="affection-event-service" />
+      </profile>
