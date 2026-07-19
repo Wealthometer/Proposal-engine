@@ -3,3 +3,4 @@ WORKDIR /app
 COPY pom.xml ./
 COPY src ./src
 RUN --mount=type=cache,target=/root/.m2 mvn -q -B clean package -DskipTests
+
