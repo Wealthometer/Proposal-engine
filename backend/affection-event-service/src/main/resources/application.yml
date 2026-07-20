@@ -19,3 +19,4 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 eureka:
+  client:
