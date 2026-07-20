@@ -14,3 +14,4 @@ spring:
     bootstrap-servers: kafka:9092
     consumer:
       group-id: affection-event-service
+      auto-offset-reset: earliest
