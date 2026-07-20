@@ -3,3 +3,4 @@ server:
 
   application:
     name: affection-event-service
+  config:
