@@ -20,3 +20,4 @@ spring:
 
 eureka:
   client:
+    service-url:
